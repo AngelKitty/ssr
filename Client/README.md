@@ -335,6 +335,8 @@ if [[ ! -f "/etc/rc.local" ]]; then
 	sudo echo "[Service]" >> /etc/rc.local
 	sudo echo "Type=forking" >> /etc/rc.local
 	if [[ ! -f "/home/shadow_run.sh" ]]; then
+		wget https://raw.githubusercontent.com/AngelKitty/ssr/master/Client/shadow_install.sh
+		chmod 777 shadow_install.sh
 		sudo bash shadow_install.sh
 	fi
 	sudo cp /home/shadow_run.sh /etc/shadow_run.sh
