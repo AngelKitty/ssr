@@ -4,15 +4,15 @@
 
 [中文](https://github.com/AngelKitty/ssr/blob/master/README-zh_CN.md) [English](https://github.com/AngelKitty/ssr/blob/master/README.md)
 
-Autotools for set up ssr client and server, ssr is a fast tunnel proxy that helps you bypass firewalls.
+此项目是用于设置 ssr 客户端和服务器的自动工具，ssr 是一个快速隧道代理，可帮助您绕过防火墙。
 
-## Server
+## 服务端
 
-### Document
+### 文档
 
-You can Refer to the [article](https://github.com/AngelKitty/ssr/blob/master/Server/README.md), and then step by step to finish the installation process.
+您可以参考[文章](https://github.com/AngelKitty/ssr/blob/master/Server/README.md)，然后一步一步完成安装过程。
 
-### Install
+### 安装
 
 Debian / Ubuntu / CentOS:
 
@@ -23,7 +23,7 @@ chmod +x ssr.sh
 ./ssr.sh
 ```
 
-Or you can choice the following way to do:
+或者你可以选择以下方式安装：
 
 Debian / Ubuntu:
 
@@ -47,13 +47,13 @@ chmod +x ssr.sh
 ./ssr.sh
 ```
 
-## Client
+## 客户端
 
-### Document
+### 文档
 
-You can Refer to the [article](https://github.com/AngelKitty/ssr/blob/master/Client/README.md), and then step by step to finish the installation process.
+您可以参考[文章](https://github.com/AngelKitty/ssr/blob/master/Client/README.md)，然后一步一步完成安装过程。
 
-### Install
+### 安装
 
 Debian / Ubuntu:
 
@@ -65,20 +65,20 @@ sudo chmod 777 auto.sh
 sudo bash auto.sh 
 ```
 
-or you can get the script from the [there](https://raw.githubusercontent.com/AngelKitty/ssr/master/Client/auto.sh)
+或者你可以从[这里](https://raw.githubusercontent.com/AngelKitty/ssr/master/Client/auto.sh)得到安装脚本
 
-## License
+## 许可
 
 Copyright © 2019 https://github.com/AngelKitty/ssr
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
+根据 Apache 许可证 2.0 版(“许可证”)获得许可。除非符合许可，否则您不得使用此文件。您可以在以下位置获取许可证：
 
 ```
 http://www.apache.org/licenses/LICENSE-2.0
 ```
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+除非适用法律要求或书面同意，否则根据许可证分发的软件将按“原样”分发，不附带任何明示或暗示的担保或条件。有关管理许可下的权限和限制的特定语言，请参阅许可证。
 
-## Bugs and Issues
+## 问题反馈
 
 - [Issue Tracker](https://github.com/AngelKitty/ssr/issues?state=open)
