@@ -8,7 +8,7 @@
 #=================================================
 #	System Required: Debian/Ubuntu
 #	Description: Install the ShadowsocksR Client
-#	Version: 1.0
+#	Version: 1.1
 #	Author: Angel_Kitty
 #	Blog: https://www.cnblogs.com/ECJTUACM-873284962/
 #=================================================
