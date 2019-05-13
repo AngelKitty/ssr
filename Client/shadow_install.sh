@@ -1,7 +1,7 @@
 # @Author: Angel_Kitty
 # @Date:   2019-05-11 16:57:59
 # @Last Modified by:   Angel_Kitty
-# @Last Modified time: 2019-05-11 23:30:38
+# @Last Modified time: 2019-05-12 20:16:10
 # Copyright (c) https://github.com/AngelKitty/ssr
 
 # description: 开机自动启动的一键代理脚本安装程序
@@ -32,7 +32,7 @@ echo && read -p "Please input Server IP Port: " SERVER_PORT
 sudo sed -i 's/8388/$SERVER_PORT/g' /etc/shadowsocks.json
 
 echo && read -p "Please input Server Login Password: " PASSWORD
-sudo sed -i 's/m/$PASSWORD/g' /etc/shadowsocks.json
+sudo sed -i 's/"m"/"$PASSWORD"/g' /etc/shadowsocks.json
 
 echo && read -p "Please input Method: " METHOD
 sudo sed -i 's/aes-128-ctr/$METHOD/g' /etc/shadowsocks.json
